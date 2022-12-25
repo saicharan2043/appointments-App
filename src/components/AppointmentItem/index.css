@@ -1,0 +1,64 @@
+/* Write your CSS here */
+
+.list {
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 350px;
+  padding: 10px;
+  margin-right: 22px;
+  margin-bottom: 10px;
+  list-style: none;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  width: 90%;
+}
+
+.name {
+  font-family: Roboto;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button-star {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.img-star {
+  height: 30px;
+}
+
+.date-year {
+  font-family: Roboto;
+  color: #b5b7c4;
+  font-size: 20px;
+  margin-bottom: 5px;
+  width: 90%;
+  margin-top: 0px;
+}
+
+@media (max-width: 767px) {
+  .date-year {
+    font-size: 15px;
+  }
+  .list {
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  .img-star {
+    height: 25px;
+  }
+}
